@@ -1,0 +1,16 @@
+.barchart_container{
+    max-width: 70%;
+    max-height: 12rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    background-color: #EDE8E8;
+    border-radius: 5px;
+}
+
+.barchart_tooltip{
+border: none;
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+color: white;
+} 

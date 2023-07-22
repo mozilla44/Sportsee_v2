@@ -1,0 +1,27 @@
+header {
+    border: 3px solid ;
+    display: flex;
+    align-items: center;
+    background-color: #020203;
+    z-index: 1000;
+    .header_logo{
+        /* border: 3px solid blue ; */
+        width: 11.125rem;
+        height: 3.8081rem;
+    }
+    .header_nav {
+      /*   border: 3px solid red; */
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 0;
+        margin-left: auto;
+        .header_link{
+            text-decoration: none;
+            cursor: pointer;
+            color: white;
+            font-weight: bolder;
+            font-size: larger;
+        }
+    }
+}

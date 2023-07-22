@@ -1,0 +1,23 @@
+.key_data_wrapper {
+  position: absolute;
+  right: 5%;
+  top: 6rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+
+  .key_data_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.5rem -1rem 0.5rem 0;
+    row-gap: 12rem;
+    background-color: #edeaea;
+    border-radius: 5px;
+    max-width: 10rem;
+    padding: 1rem;
+    .keydata_text{
+      font-weight: bold;
+    }
+  }
+}

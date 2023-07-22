@@ -1,0 +1,41 @@
+.dashboard_wrapper {
+  position: absolute;
+  width: 88%;
+  left: 7.3125rem;
+  right: 25%;
+  height: 91vh;
+  .dashboard_header {
+    width: 50%;
+    .hello {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      margin-left: 2rem;
+    }
+    .name {
+      color: red;
+    }
+  }
+}
+.congrats {
+  margin-left: 2rem;
+}
+.radar {
+  max-width: 10rem;
+  height: 20rem;
+  max-width: 70%;
+}
+
+.square_charts {
+  max-width: 70%;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  height: 15rem;
+  display: flex;
+  gap: 1.5rem;
+  .linechart_wrapper,.radar_wrapper,.piechart_wrapper{
+    width: 32%;
+  }
+}
+
+
+
